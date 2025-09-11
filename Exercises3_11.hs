@@ -38,7 +38,7 @@ double x = x * 2
 palindrome :: Eq a => [a] -> Bool
 palindrome xs = reverse xs == xs
 
-twice :: (a -> b) -> a -> b
+twice :: (a -> a) -> a -> a
 twice f x = f (f x)
 
 
